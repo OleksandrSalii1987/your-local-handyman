@@ -10,16 +10,60 @@
   <header>
     <h1>Your Local Handyman</h1>
     <p>Reliable handyman services in Austin, TX</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
   <main>
-    <section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We provide high-quality handyman services in Austin, TX. From small repairs to full remodels — we handle it all with care and precision.</p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Drywall repair and installation</li>
+        <li>Furniture assembly</li>
+        <li>TV mounting</li>
+        <li>Smart lock installation</li>
+        <li>Bathroom & kitchen hardware</li>
+        <li>Minor electrical and plumbing</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p>Photos of completed projects will be displayed here.</p>
+    </section>
+
+    <section id="reviews">
+      <h2>Client Reviews</h2>
+      <p>⭐⭐⭐⭐⭐ “Professional, fast, and friendly!”</p>
+      <p>⭐⭐⭐⭐⭐ “Came on time and did a perfect job.”</p>
+    </section>
+
+    <section id="contact">
       <h2>Contact Us</h2>
+      <form action="mailto:sashaalex1987@gmail.com" method="POST" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" rows="5" required></textarea><br>
+        <button type="submit">Send</button>
+      </form>
       <p>Call or text: <a href="tel:5096378497">509-637-8497</a></p>
       <p>Email: <a href="mailto:sashaalex1987@gmail.com">sashaalex1987@gmail.com</a></p>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 Your Local Handyman</p>
+    <p>&copy; 2025 Your Local Handyman | Austin, TX</p>
   </footer>
 </body>
 </html>
