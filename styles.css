@@ -12,7 +12,7 @@ body, html {
   top: 0; left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('austin-background.jpg');
+  background-image: url('austin-skyline.jpg');
   background-size: cover;
   background-position: center;
   filter: brightness(0.4) blur(2px);
@@ -30,15 +30,12 @@ header {
   margin-top: 30px;
 }
 
-header h1, .subtitle {
-  font-size: 32px;
+.main-title {
+  font-size: 30px;
   margin: 0;
   font-weight: 600;
-}
-
-.subtitle {
-  font-size: 18px;
-  margin-bottom: 10px;
+  color: #00e6e6;
+  text-shadow: 0px 0px 5px #00ffff;
 }
 
 nav a {
@@ -56,6 +53,7 @@ section {
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 8px;
+  box-shadow: 0px 0px 10px #0ff;
 }
 
 .gallery {
@@ -77,17 +75,20 @@ form input, form textarea {
   margin: 10px 0 20px;
   border: none;
   border-radius: 4px;
+  background: #222;
+  color: #fff;
 }
 form button {
   padding: 10px 20px;
-  background: #444;
+  background: #00cccc;
   color: white;
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  font-weight: bold;
 }
 form button:hover {
-  background: #666;
+  background: #00e6e6;
 }
 
 footer {
