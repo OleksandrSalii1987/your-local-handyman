@@ -1,75 +1,45 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Local Handyman</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Local Handyman - Oleksandr Salii</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="background"></div>
-  <div class="content">
-    <header>
-      <h1 class="main-title">Your Local Handyman - Oleksandr Salii</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I’m Oleksandr — your reliable handyman in Austin, TX. I bring precision, care, and years of experience to every job. Whether it's a minor repair or a full upgrade, I treat your home like my own.</p>
-      </section>
-
-      <section id="services">
-        <h2>Services</h2>
-        <ul>
-          <li>Drywall repair & installation</li>
-          <li>Mounting TVs, shelves, artwork</li>
-          <li>Furniture assembly</li>
-          <li>Smart lock installation</li>
-          <li>Appliance installation</li>
-          <li>Caulking & sealing</li>
-          <li>Minor electrical work</li>
-          <li>Light fixture replacement</li>
-          <li>Bathroom hardware</li>
-          <li>Toilet & faucet replacement</li>
-          <li>Door knob & handle repair</li>
-          <li>and much more.</li>
-        </ul>
-      </section>
-
-      <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-          <img src="photo1.jpg" alt="Sample Work 1">
-          <img src="photo2.jpg" alt="Sample Work 2">
-          <img src="photo3.jpg" alt="Sample Work 3">
+    <div class="hero">
+        <div class="overlay">
+            <h1>Your Local Handyman</h1>
+            <h2>Oleksandr Salii</h2>
         </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="https://formsubmit.co/sashaalex1987@gmail.com" method="POST">
-          <label for="name">Name:</label><br>
-          <input type="text" name="name" required><br>
-          <label for="email">Email:</label><br>
-          <input type="email" name="email" required><br>
-          <label for="phone">Phone Number:</label><br>
-          <input type="text" name="phone"><br>
-          <label for="message">Message:</label><br>
-          <textarea name="message" rows="5" required></textarea><br>
-          <button type="submit">Send</button>
+    </div>
+    <section class="about">
+        <h3>About Me</h3>
+        <p>Need reliable, professional handyman services in Austin? I'm Oleksandr Salii — your local expert for everything from small repairs to larger home improvement projects. I take pride in delivering top-quality work with attention to detail, on time and on budget.</p>
+    </section>
+    <section class="services">
+        <h3>Services</h3>
+        <ul>
+            <li>Drywall repair</li>
+            <li>TV mounting</li>
+            <li>Furniture assembly</li>
+            <li>Door repair & lock installation</li>
+            <li>Bathroom hardware installation</li>
+            <li>Smart lock & Wi-Fi access points setup</li>
+            <li>Light fixture replacement</li>
+            <li>Appliance installation</li>
+            <li>And much more.</li>
+        </ul>
+    </section>
+    <section class="contact">
+        <h3>Contact Me</h3>
+        <form>
+            <label for="name">Name:</label><input type="text" id="name" name="name" required>
+            <label for="phone">Phone:</label><input type="tel" id="phone" name="phone" required>
+            <label for="message">Message:</label><textarea id="message" name="message" rows="4"></textarea>
+            <button type="submit">Send</button>
         </form>
-        <p>I’ll get back to you as soon as possible. Thanks for reaching out!</p>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; 2025 Your Local Handyman | Oleksandr Salii | Austin, TX</p>
-    </footer>
-  </div>
+    </section>
 </body>
 </html>
